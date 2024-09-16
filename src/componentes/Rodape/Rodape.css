@@ -1,0 +1,14 @@
+footer {
+  background-color: #6278F7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  font-size: 1.25em;
+  padding: 75px;
+}
+
+.links {
+  display: flex;
+  gap: 35px;
+}
