@@ -1,9 +1,9 @@
-import './Rodape.css';
+import "./Rodape.css";
 
 const Rodape = () => {
   return (
     <footer>
-      <div className='links'>
+      <div className="links">
         <a href="/">
           <img src="/imagens/icons/fb.png" alt="logo do facebook" />
         </a>
@@ -18,6 +18,6 @@ const Rodape = () => {
       <p>Desenvolvido por Davi Gabriel Segantin.</p>
     </footer>
   );
-}
+};
 
 export default Rodape;

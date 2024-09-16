@@ -46,8 +46,6 @@ function App() {
   const [colaboradores, setColaboradores] = useState([]);
 
   const aoAdicionarNovo = (colaborador) => {
-    console.log("Formulario enviado:");
-    console.log(colaborador);
     setColaboradores([...colaboradores, colaborador]);
   };
 

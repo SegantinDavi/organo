@@ -1,11 +1,11 @@
 footer {
-  background-color: #6278F7;
+  background-color: #6278f7;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   color: #fff;
   font-size: 1.25em;
-  padding: 75px;
+  padding: 80px;
 }
 
 .links {
