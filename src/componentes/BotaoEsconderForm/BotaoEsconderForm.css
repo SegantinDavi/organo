@@ -1,0 +1,6 @@
+.botao_esconder {
+  border: none;
+  background-color: #fff;
+  position: absolute;
+  right: 50px;
+}

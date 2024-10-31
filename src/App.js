@@ -4,6 +4,7 @@ import Banner from "./componentes/Banner";
 import Formulario from "./componentes/Formulario";
 import Time from "./componentes/Time";
 import Rodape from "./componentes/Rodape";
+import BotaoEsconderForm from "./componentes/BotaoEsconderForm";
 
 function App() {
   const [times, setTimes] = useState([
@@ -301,6 +302,10 @@ function App() {
     );
   }
 
+  function aoEsconderForm() {
+    document.querySelector(".formulario").classList.toggle("hide");
+  }
+
   return (
     <div className="App">
       <Banner />
@@ -310,7 +315,10 @@ function App() {
         aoCadastrar={(colaborador) => aoAdicionarNovo(colaborador)}
       />
       <section className="times">
-        <h1>Minha organização</h1>
+        <h1 className="times__titulo">Minha organização</h1>
+        <BotaoEsconderForm 
+          aoEsconder={aoEsconderForm}
+        />
         {times.map((time, indice) => (
           <Time
             mudarCor={mudarCorDoTime}
